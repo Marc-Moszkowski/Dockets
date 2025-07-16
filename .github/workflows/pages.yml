@@ -38,6 +38,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v3
     outputs:
-      page_url: ${{ steps.deployment.outputs.page_url }} to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+      page_url: ${{ steps.deployment.outputs.page_url }}
